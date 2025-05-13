@@ -10,8 +10,10 @@
             AtataContext.GlobalConfiguration
                 .UseChrome()
                     .WithArguments(
+                        "disable-infobars",
                         "start-maximized",
-                        "disable-search-engine-choice-screen")
+                        "disable-search-engine-choice-screen"
+                        )
                 .UseBaseUrl("https://demo.atata.io/")
                 .UseCulture("en-US")
                 .UseAllNUnitFeatures();
