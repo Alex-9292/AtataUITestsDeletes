@@ -1,7 +1,6 @@
-﻿using Atata;
-using Atata.Bootstrap;
+﻿using Atata.Bootstrap;
 
-namespace AtataUITestsDeletes.ConfirmationPopups;
+namespace AtataUITestsDeletes.Pages;
 
 [Name("Deletion Confirmation")]
 [WindowTitle("Confirmation")]

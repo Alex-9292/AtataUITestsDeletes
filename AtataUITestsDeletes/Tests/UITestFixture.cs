@@ -1,11 +1,11 @@
-﻿namespace AtataUITestsDeletes
+﻿namespace AtataUITestsDeletes.Tests
 {
     [Parallelizable(ParallelScope.Self)]
     public class UITestFixture
     {
         [SetUp]
         public void SetUp() =>
-            AtataContext.Configure().Build();
+            AtataContext.GlobalConfiguration.Build();
 
         [TearDown]
         public void TearDown() =>

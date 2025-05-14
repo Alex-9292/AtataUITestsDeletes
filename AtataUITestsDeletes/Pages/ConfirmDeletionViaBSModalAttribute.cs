@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Atata;
-using Atata.Bootstrap;
-
-namespace AtataUITestsDeletes.ConfirmationPopups;
+﻿namespace AtataUITestsDeletes.Pages;
 
 public class ConfirmDeletionViaBSModalAttribute : TriggerAttribute
 {
