@@ -3,6 +3,8 @@
 using _ = ProductsPage;
 
 [Url("products")]
+//[WaitForDocumentReadyState]
+[WaitSeconds(1)]
 public class ProductsPage : Page<_>
 {
     public Table<ProductTableRow, _> Products { get; private set; }

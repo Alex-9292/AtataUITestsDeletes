@@ -6,7 +6,7 @@ using _ = ProductsPage;
 public class ProductTableRow : TableRow<_>
 {
     public Text<_> Name { get; private set; }
-
+    
     public Currency<_> Price { get; private set; }
 
     public Number<_> Amount { get; private set; }
