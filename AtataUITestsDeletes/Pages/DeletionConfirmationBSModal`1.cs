@@ -8,6 +8,6 @@ public class DeletionConfirmationBSModal<TNavigateTo> : BSModal<DeletionConfirma
     where TNavigateTo : PageObject<TNavigateTo>
 {
     public ButtonDelegate<TNavigateTo, DeletionConfirmationBSModal<TNavigateTo>> Delete { get; private set; }
-
+   
     public ButtonDelegate<TNavigateTo, DeletionConfirmationBSModal<TNavigateTo>> Cancel { get; private set; }
 }

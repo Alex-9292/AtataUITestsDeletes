@@ -15,9 +15,11 @@ public class ProductTableRow : TableRow<_>
     public ButtonDelegate<_> DeleteUsingJSConfirm { get; private set; }
 
     [FindByContent("Delete Using BS Modal")]
+    [WaitFor(Until.Visible)]
     public ButtonDelegate<DeletionConfirmationBSModal<_>, _> DeleteUsingBSModal { get; private set; }
 
     [FindByContent("Delete Using BS Modal")]
+    [WaitFor(Until.Visible)]
     [ConfirmDeletionViaBSModal]
     public ButtonDelegate<_> DeleteUsingBSModalViaTrigger { get; private set; }
 }
